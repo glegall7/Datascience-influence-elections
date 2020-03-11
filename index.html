@@ -16,16 +16,21 @@
 		  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
 	</head>
 <body>
+<div class="navbar-fixed">
 <nav>
+
     <div class="nav-wrapper">
       <a href="#" class="brand-logo">L’utilisation des data-science dans les élections</a>
       <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#1">Compréhension</a></li>
-        <li><a href="badges.html">Components</a></li>
-        <li><a href="collapsible.html">JavaScript</a></li>
+        <li><a href="#2">Compréhension</a></li>
+        <li><a href="#3">Influencer</a></li>
+        <li><a href="#4">Cibler</a></li>
+        <li><a href="#5">Ethique</a></li>
       </ul>
     </div>
+    
   </nav>
+  </div>
   <div class="section white">
       <div class="row container">        
         <h1 class="header" id="0">L’utilisation des data-science dans les élections </h2>
@@ -116,22 +121,43 @@ Ce ciblage se fait en trois étapes distinctes : </p>
 			<li>Sélectionner les bons électeurs</li>
 			<li>Envoyer massivement du contenu aux personnes cibles</li>
 		</ul>
-        <p class="grey-text text-darken-3 lighten-3">La première étape, connaître la population, consiste à récupérer pour le maximum de personnes des données sur leurs loisirs, leurs goûts, leurs diplômes, etc. afin de former différents types de personnes représentant toute la société
-		<br /> <br />
-		Dans la deuxième étape, parmi les différentes classes de personnes, on va sélectionner celles qu’on pense les plus aptes à changer leur vote pour choisir notre camp. Dans le cas d’élections sur des circonscriptions, une deuxième sélection géographique sur les zones qui sont les plus susceptibles de basculer en notre faveur.
-		<br /><br />
+		<div class="row">
+			<div class="col s8">
+		        <p class="grey-text text-darken-3 lighten-3">La première étape, connaître la population, consiste à récupérer pour le maximum de personnes des données sur leurs loisirs,
+		         leurs goûts, leurs diplômes, etc. afin de former différents types de personnes représentant toute
+		          la société. Afin de récupérer ces informations, on peut acheter des données vendus par des sites webs ou des réseaux sociaux (ex: utilisation)
+		          des données de Facebook par Cambridge Analytica) ou directement en créant des questionnaires de personnalités que les utilisateurs vont remplir, souvent
+		          sans savoir que leurs données seront exploitées.
+				</p>
+			</div>
+			<div class="col s3 offset-s1">
+			<img class="responsive-img" src="datapoints.png" width="100%">
+			</div>
+		</div>
+		<br />
+		<div class="row">
+			<div class="col s3 ">
+			<img class="responsive-img" src="graph.png" width="100%">
+			</div>
+			<div class="col s8 offset-s1">
+				<p>
+					Dans la deuxième étape, parmi les différentes classes de personnes, on va sélectionner celles qu’on pense les plus aptes à changer leur vote pour choisir notre camp. Dans le cas d’élections sur des circonscriptions, une deuxième sélection géographique sur les zones qui sont les plus susceptibles de basculer en notre faveur.
+					</p>
+			</div>
+		</div>
+		<br />
 		La troisième consiste à inonder les personnes ciblées avec de multiples contenus afin de les convaincre de voter pour nous. Ces contenus sont majoritairement sous la forme de pub sur les réseaux sociaux. Les publicités étant payantes, il est important de ne pas avoir trop de personnes cibles faute de quoi le prix va exploser. Et ceci n’est pas forcément compatible avec des budgets de campagnes limités. L’électeur n’est ainsi pas forcément conscient de ce flux de contenus qui lui est proposé.
 		</p>
       </div>
     </div>
     
     <div class="parallax-container">
-      <div class="parallax"><img src="politics2.jpg" width="100%" ></div>
+      <div class="parallax"><img src="ethics.jpg" width="100%" ></div>
     </div>
     
     <div class="section white">
       <div class="row container">        
-        <h2 class="header" id="1">Enjeux et éthique</h2>
+        <h2 class="header" id="5">Enjeux et éthique</h2>
         <p class="grey-text text-darken-3 lighten-3">Face à ces nouvelles technologies, la société commence à se demander si les processus électoraux, qui ont peut changer depuis deux siècles, permettent encore une indépendance du vote de chaque électeur.
 		<br /><br />
 		En effet, des partis, des candidats, des entreprises sont maintenant capable de cibler et d’influencer des électeurs afin de les voter non selon leurs convictions personnelles mais selon le désir du parti, candidat, entreprise. Les électeurs ne sont pas conscients de cette manipulation qui fausse l’équilibre et l’équité des différentes élections. 
@@ -141,6 +167,24 @@ Ce ciblage se fait en trois étapes distinctes : </p>
 		</p>
       </div>
     </div>
+   
+    
+    <footer class="page-footer">
+          <div class="container">
+            <div class="row">
+              <div class="col s12">
+                <h5 class="white-text">Rapport de veille</h5>
+                <p class="grey-text text-lighten-4">Cette veille a été réalisé dans le cadre du cours Nouvelles Technologies de l'Information et de Communication (NTIC) de l'école Centrale de Lyon.
+        Ce texte a été écrit par Guillaume Le Gall (2020). Vous trouverez ci-joint <a href="https://www.scoop.it/topic/guillaume-le-gall">mon outil de curation</a> qui contient les articles utilisés dans le cadre de ma veille.</div>
+              
+            </div>
+          </div>
+          <div class="footer-copyright">
+            <div class="container">
+            © 2020 Guillaume Le Gall
+            </div>
+          </div>
+        </footer>
       <script src="materialize.js"></script>
     <script type="text/javascript">
     document.addEventListener('DOMContentLoaded', function() {
